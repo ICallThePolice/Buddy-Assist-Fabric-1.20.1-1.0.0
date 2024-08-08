@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buddyassist:item/seeker"
+    "layer0": "buddy-assist:item/seeker"
   }
 }

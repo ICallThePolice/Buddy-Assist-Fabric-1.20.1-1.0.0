@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class BuddyAssist implements ModInitializer {
 	public static final String MOD_ID = "buddyassist";
-    public static final Logger LOGGER = LoggerFactory.getLogger("buddy-assist");
+    public static final Logger LOGGER = LoggerFactory.getLogger("buddyassist");
 
 	@Override
 	public void onInitialize() {
