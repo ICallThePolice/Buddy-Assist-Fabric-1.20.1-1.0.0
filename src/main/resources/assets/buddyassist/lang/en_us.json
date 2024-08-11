@@ -1,0 +1,20 @@
+{
+  "_comment": "items",
+  "item.buddyassist.seeker": "Seeker",
+  "item.buddyassist.sawer": "Sawer",
+  "item.buddyassist.metal_detector": "Metal Detector",
+
+  "_comment": "tooltip",
+  "tooltip.buddyassist.metal_detector.tooltip": "Detect metals",
+
+  "_comment": "food",
+  "item.buddyassist.remains": "Remains",
+
+  "_comment": "blocks",
+  "block.buddyassist.monster_block": "Monster's remain",
+  "block.buddyassist.dog_remains": "Dog Remains",
+
+
+
+  "itemgroup.buddy": "Buddy Assist"
+}

@@ -1,32 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "buddy-assist",
+	"id": "buddyassist",
 	"version": "${version}",
-	"name": "Buddy Assist",
-	"description": "Your devoted friend in this world!",
+	"name": "BuddyAssist",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Ewaldion"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "https://t.me/Ewaldion/",
+		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
-	"icon": "assets/buddy-assist/icon.png",
+	"license": "CC0-1.0",
+	"icon": "assets/buddyassist/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.ewaldion.buddyassist.BuddyAssist"
-		],
-		"client": [
-			"net.ewaldion.buddyassist.BuddyAssistClient"
 		],
 		"fabric-datagen": [
 			"net.ewaldion.buddyassist.BuddyAssistDataGenerator"
 		]
 	},
 	"mixins": [
-		"buddy-assist.mixins.json"
+		"buddyassist.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

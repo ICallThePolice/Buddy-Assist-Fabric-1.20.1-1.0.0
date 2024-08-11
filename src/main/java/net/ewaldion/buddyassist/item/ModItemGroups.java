@@ -1,7 +1,9 @@
 package net.ewaldion.buddyassist.item;
 
 import net.ewaldion.buddyassist.BuddyAssist;
+import net.ewaldion.buddyassist.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -17,8 +19,12 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SEEKER)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SEEKER);
                         entries.add(ModItems.SAWER);
+                        entries.add(ModItems.METAL_DETECTOR);
 
-                        entries.add(Items.CROSSBOW);
+                        entries.add(ModBlocks.MONSTER_BLOCK);
+                        entries.add(ModBlocks.DOG_REMAINS);
+
+                        entries.add(ModItems.REMAINS);
 
                     }).build());
 
